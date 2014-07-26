@@ -8,6 +8,10 @@
 		<class>com.kkt.self.Parent</class>
 		<class>com.kkt.self.Address</class>
 		<class>com.kkt.self.Customer</class>
+		<class>primary.person.foriegn.orders.onemany.Order</class>
+		<class>primary.person.foriegn.orders.onemany.Person</class>
+		<class>table1.table2.onemany.Table2</class>
+		<class>table1.table2.onemany.Tableone</class>
 	     <properties>
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
