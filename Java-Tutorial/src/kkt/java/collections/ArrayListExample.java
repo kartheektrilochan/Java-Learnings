@@ -18,7 +18,15 @@ public class ArrayListExample {
 		l.add("d");
 		l.add("e");
 		
+		
+		List sublist=new ArrayList<>();
+		sublist.add("a");
+		sublist.add("e");
+	
+		
 		displayList(l);
+		displayCollection(l);
+		l.retainAll(sublist);
 		displayCollection(l);
 	}
 	public static void displayList(List l)

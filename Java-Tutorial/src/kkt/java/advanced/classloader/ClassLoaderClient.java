@@ -2,8 +2,6 @@ package kkt.java.advanced.classloader;
 
 import java.lang.reflect.InvocationTargetException;
 
-import kkt.java.classrelated.Example;
-
 public class ClassLoaderClient {
 
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {

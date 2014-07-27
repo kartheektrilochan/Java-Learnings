@@ -14,6 +14,7 @@ public class LinkedHashSetExample {
 	      lnkHashset.add(2);
 	      lnkHashset.add(4);
 	      lnkHashset.add(5);
+	      lnkHashset.add(null);
 	      displayAll(lnkHashset);
 	      
 	}
