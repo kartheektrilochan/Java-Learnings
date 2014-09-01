@@ -7,6 +7,9 @@ public class OverRideSubClass extends OverRideSupClass{
 	/**
 	 * @param args
 	 */
+	public OverRideSubClass() {
+		System.out.println("Sub class construcotr");
+	}
 	public void display(String name)
 	{
 		System.out.println("This is in sub class");
